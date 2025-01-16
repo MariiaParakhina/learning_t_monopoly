@@ -222,13 +222,13 @@ canvas {
 .ui-controls #score-result {
 	display: inline-block;
 	min-width: 1.8em;
-	color: #d45f2e;
+	color: #e2001a;
 }
 .ui-controls #score-result:after {
 	content: "\200b";
 }
 .ui-controls #roll-btn {
-	background-color: #00218d;
+	background-color: #e2001a;
 	font-weight: bold;
 	color: #ffffff;
 	border: none;
@@ -246,7 +246,7 @@ canvas {
 	transform: translateY(2px);
 }
 .ui-controls #roll-btn:hover {
-	background-color: #3737af;
+	background-color: #cf0e1e;
 }
 
 /* Responsive adjustments */
@@ -286,12 +286,14 @@ canvas {
 .navbar {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	padding: 1rem;
-	background-color: #497bfe;
+	height: 30vh;
+	background-color: #bedbb0;
 }
 
 .logo {
-	height: 40px;
+	height:  70vw;
 }
 
 .ui-controls {
